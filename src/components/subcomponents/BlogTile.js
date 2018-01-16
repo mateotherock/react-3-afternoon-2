@@ -5,6 +5,7 @@ class BlogTile extends Component{
     
     render(){
         const blog = this.props.blog;
+        console.log(blog)
         return(
             <Link to={`/blog/${blog.id}`} className='blog-tile'>
                 <img src={blog.image} alt=""/>
